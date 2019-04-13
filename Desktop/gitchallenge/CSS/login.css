@@ -1,0 +1,80 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(../image/www.jpg);
+    background-size:cover;
+}
+
+.login{
+    width: 358px;
+    height: 378px;
+    margin:120px auto;
+    position:relative;
+}
+
+.login .front{
+    background-color: rgba(0, 0, 0, 0.51);
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    position:absolute;
+}
+.image img{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    background-color: #eee;
+    position:relative;
+    top:-42px;
+    left: 120px;
+    
+}
+
+h3{
+    color:#fff;
+    text-align: center;
+    margin-top:-30px;
+}
+
+form{
+   
+    margin:30px ;
+    color: #fff;
+    
+}
+
+
+/* attribute css */
+input[ type="submit"]
+{
+    width: 100%;
+    background:#111010;
+    color:#fff;
+    border-color: #111010;
+    border-radius: 50px;
+    height:30px;;
+}
+
+input[ type="text"]
+{
+    background:none;
+    border:none;
+    border-bottom: 1px solid #DDDDDD;
+    width:90%;
+}
+
+input[ type="password"]
+{
+    background:none;
+    border:none;
+    border-bottom: 1px solid #DDDDDD;
+    width:90%;
+    
+}
+
+
